@@ -1,5 +1,7 @@
 # MBDSTGAT
 This repository includes the code for MBDSTGAT, baseline models, comparison experiments, ablation experiments, online experiments, and some plotting code. Due to the large size of the log files during the experimental process, we have only retained the logs for MBDSTGAT. If researchers need to refer to the baseline model logs, they can contact the author via email.
+<img width="448" height="240" alt="image" src="https://github.com/user-attachments/assets/6f3f8242-7c98-4577-937b-d6e23ae65b7f" />
+
 ## Config
 python version: 3.10.2 <br>
 pyTorch version: 2.5.1+cpu <br>
