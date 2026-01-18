@@ -17,20 +17,20 @@ Computations performed — NVIDIA GeForce RTX 3090 GPU <br>
 ## Initial Parameter Settings
 
 python train_MBDSTGAT.py     -device 0     -data_type HGD     -data_path /yours     -id 1     -father_path saved_results     -spatial_GAT True       -time_GAT True     -use_kgat True  -window_length 125  -window_padding 100  -epochs 2000 -batch_size 32 -lr 2 ** -12 <br>
-
+<br>
 python train_MBDSTGAT.py     -device 1     -data_type bci2a     -data_path /yours     -id 1     -father_path saved_results     -spatial_GAT True     -time_GAT True     -use_kgat True  -window_length 125  -window_padding 100  -epochs 2000 -batch_size 32 -lr 2 ** -12 <br>
-
+<br>
 python train_MBDSTGAT.py     -device 3     -data_type VR-MI     -data_path /yours     -id 1     -father_path saved_results     -spatial_GAT True     -time_GAT True     -use_kgat True  -window_length 125  -window_padding 100  -epochs 2000 -batch_size 32 -lr 2 ** -12 <br>
-
+<br>
 1、MTP 
--use_adj_perturbation False
+-use_adj_perturbation True
 | Parameter Name | Type | Default Value | Description |
 |--------|------|--------|------|
 | `-adj_edge_change_ratio` | float | 0.1 | Edge Change Ratio (0.0-1.0) |
 | `-adj_weight_noise_std` | float | 0.1 | Weight Noise Standard Deviation |
 | `-adj_min_edge_weight` | float | 0.01 | Minimum Edge Weight |
 | `-adj_max_edge_weight` | float | 1.0 | Maximum Edge Weight |
-
+<br>
 2、kgat
 -use_kgat Ture <br>
 ## VR-MI Dataset
