@@ -14,4 +14,4 @@ thop version: 0.1.1.post2209072238<br>
 scipy version: 1.15.3 <br>
 Computations performed — NVIDIA GeForce RTX 3090 GPU <br>
 ## VR-MI Dataset
-Due to the large size of the self-collected VR-MI dataset, it is not publicly available in this repository. However, we have made the dataset publicly available on IEEE DataPort with [DOI: 10.21227/89ez-a093](https://dx.doi.org/10.21227/89ez-a093).
+Due to the large size of the self-collected VR-MI dataset, it is not publicly available in this repository. However, we have made the dataset publicly available on IEEE DataPort with [doi: 10.21227/89ez-a093](https://dx.doi.org/10.21227/89ez-a093).
