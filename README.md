@@ -32,6 +32,6 @@ python train_MBDSTGAT.py     -device 3     -data_type VR-MI     -data_path /your
 | `-adj_max_edge_weight` | float | 1.0 | Maximum Edge Weight |
 
 2、kgat
--use_kgat Ture
+-use_kgat Ture <br>
 ## VR-MI Dataset
 Due to the large size of the self-collected VR-MI dataset, it is not publicly available in this repository. However, we have made the dataset publicly available on IEEE DataPort with [doi: 10.21227/89ez-a093](https://dx.doi.org/10.21227/89ez-a093).
