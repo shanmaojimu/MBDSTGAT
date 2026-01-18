@@ -1,9 +1,9 @@
 # MBDSTGAT
-MBDSTGAT_code&amp;dataset
+MBDSTGAT code&amp;dataset
 
 ## Config
-Python version: 3.10.2 
-PyTorch version: 2.5.1+cpu
+Python version: 3.10.2 <br>
+PyTorch version: 2.5.1+cpu <br>
 Braindecode version: 0.8 
 MNE version: 1.9.0 
 pandas version: 2.2.2 
